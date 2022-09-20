@@ -1,50 +1,58 @@
-.b{
+.b {
     background-color: black;
     margin: 0;
     padding: 0;
 }
-.mhd{
+
+.mhd {
     display: flex;
     justify-content: center;
     justify-content: space-between;
+    align-items: center;
     color: white;
     width: 100%;
-    max-width: 1280px;
     height: 100%;
 }
-.aa{
+
+.aa {
     height: 100%;
     max-height: 50px;
 }
-.container{
+
+.container {
     width: 100%;
-  
     margin-left: auto;
     margin-right: auto;
     display: flex;
     justify-content: center;
     align-items: center;
 }
-.logo{
+
+.logo {
     display: flex;
     padding-left: 16px;
     margin-top: 50px;
 }
-.title f-f-f{
+.logosvg{
+padding-left: 0;
+}
+
+.title f-f-f {
     font-family: 'Montserrat';
 }
 
-.title{
+.title {
     margin-top: 0px;
     padding-left: 10px;
     font-family: 'Montserrat';
 }
-.tsb{
+
+.tsb {
     margin-top: 35px;
     font-size: 16px;
     color: white;
     font-weight: 400;
-    height:51px;
+    height: 51px;
     width: 100%;
     max-width: 200px;
     border-radius: 50px;
@@ -52,30 +60,36 @@
     cursor: pointer;
     border: 1px solid #F5F5F5;
 }
+
 .tsb:hover {
     background-color: red;
 }
-.icon{
+
+.icon {
     display: flex;
     padding-left: 16px;
     margin-top: 150px;
 
 }
-.ctext{
+
+.ctext {
     color: white;
     font-size: 36px;
 }
-.cp{
+
+.cp {
     font-size: 60px;
     font-weight: 300;
     font-family: 'Montserrat';
 }
-.ctext2{
+
+.ctext2 {
     font-size: 60px;
     font-weight: 700;
     font-family: 'Montserrat';
 }
-.cp2{
+
+.cp2 {
     font-weight: 300;
     font-size: 20px;
     line-height: 160%;
@@ -86,7 +100,8 @@
     width: 600px;
     font-family: 'Montserrat';
 }
-.email{
+
+.email {
     width: 100%;
     max-width: 600px;
     height: 70px;
@@ -95,10 +110,11 @@
     border: none;
     color: white;
 }
-.button{
+
+.button {
     position: relative;
     right: 188px;
-    background-color:#0585F2;
+    background-color: #0585F2;
     height: 60px;
     width: 250px;
     color: white;
@@ -111,15 +127,21 @@
 
 }
 
-.fsea{
+.fsea {
     display: flex;
     padding-left: 16px;
 }
-.left{
+
+.left {
     margin-top: 150px;
     padding-right: 16px;
 }
-.workt{
+
+.imgpng {
+    margin-top: 0;
+}
+
+.workt {
     display: flex;
     font-family: 'Montserrat';
     justify-content: space-between;
@@ -131,12 +153,14 @@
     font-weight: 700;
     padding-left: 16px;
 }
-.workpt{
-font-size: 16px;
-font-weight: 300;
-width: 300px;
+
+.workpt {
+    font-size: 16px;
+    font-weight: 300;
+    width: 300px;
 }
-.forimg{
+
+.forimg {
     width: 100%;
     max-width: 1240px;
     height: 728px;
@@ -145,7 +169,8 @@ width: 300px;
     border-radius: 10px;
     margin-left: 16px;
 }
-.new{
+
+.new {
     font-family: 'Montserrat';
     font-weight: 300;
     color: white;
@@ -154,24 +179,27 @@ width: 300px;
     padding-left: 16px;
 }
 
-.new2{
+.new2 {
     color: white;
     font-size: 60px;
     font-weight: 700;
     font-family: 'Montserrat';
 }
-.new3p{
+
+.new3p {
     color: white;
     font-size: 20px;
     color: #a3a3a3;
 }
-.gc{
+
+.gc {
     display: flex;
     gap: 25px;
     padding-left: 16px;
     margin-top: 150px;
 }
-.box1{
+
+.box1 {
     background: #262626;
     padding-left: 33px;
     padding-top: 33px;
@@ -180,19 +208,22 @@ width: 300px;
     width: 100%;
     max-width: 400px;
 }
-.box1m{
+
+.box1m {
     font-family: 'Montserrat';
     color: white;
     font-size: 36px;
     font-weight: 700;
     padding-top: 10px;
 }
-.box1p{
+
+.box1p {
     padding-top: 10px;
     font-size: 16px;
     color: #a3a3a3;
 }
-.nn{
+
+.nn {
     margin-top: 150px;
     color: white;
     font-size: 60px;
@@ -200,20 +231,27 @@ width: 300px;
     font-weight: 300;
     font-family: 'Montserrat';
 }
-.nspan{
+
+.nspan {
     font-size: 60px;
     font-family: 'Montserrat';
     font-weight: 700;
 }
-.bnp{
+
+.bnp {
     font-size: 16px;
     color: #a3a3a3;
 }
-.svg152{
+
+.svg152 {
     width: 100%;
     margin-top: 150px;
 }
-.rww{
+.svg251{
+margin: 0;
+}
+
+.rww {
     margin-top: 150px;
     color: white;
     font-size: 36px;
@@ -221,25 +259,28 @@ width: 300px;
     padding-left: 16px;
     font-family: 'Montserrat';
 }
-.rww1{
+
+.rww1 {
     color: white;
     font-size: 60px;
     font-weight: 700;
     font-family: 'Montserrat';
 }
-.rww2{
+
+.rww2 {
     color: #a3a3a3;
     font-size: 16px;
 }
 
 
-.gc2{
+.gc2 {
     display: flex;
     gap: 25px;
     padding-left: 16px;
     margin-top: 150px;
 }
-.box2{
+
+.box2 {
     background: #262626;
     padding-left: 33px;
     padding-top: 33px;
@@ -248,30 +289,35 @@ width: 300px;
     width: 100%;
     max-width: 400px;
 }
-.box2m{
+
+.box2m {
     font-family: 'Montserrat';
     color: white;
     font-size: 32px;
     font-weight: 700;
     padding-top: 10px;
 }
-.box2p{
+
+.box2p {
     align-items: center;
     padding-top: 10px;
     font-size: 18px;
     color: #a3a3a3;
 }
-.percnt{
+
+.percnt {
     color: white;
     font-size: 48px;
     font-weight: 500;
 }
-.spanb{
+
+.spanb {
     align-items: center;
     font-size: 20px;
     color: white;
 }
-.try{
+
+.try {
     background-image: url(./IMGf/blueiimage.png);
     width: 100%;
     max-width: 1280px;
@@ -280,7 +326,8 @@ width: 300px;
     margin-top: 150px;
     color: white;
 }
-.tteaxt{
+
+.tteaxt {
     padding-left: 128px;
     padding-top: 100px;
     justify-content: center;
@@ -289,23 +336,27 @@ width: 300px;
     font-family: 'Montserrat';
     font-weight: 300;
 }
-.tspan{
+
+.tspan {
     font-size: 60px;
     font-weight: 700px;
     font-family: 'Montserrat';
 }
-.ttp{
+
+.ttp {
     font-size: 16px;
     color: #a3a3a3;
 }
-.tts{
+
+.tts {
     width: 600px;
     height: 70px;
-    background-color:#262626;
+    background-color: #262626;
     border-radius: 50px;
     border: none;
 }
-.ttsb{
+
+.ttsb {
     position: relative;
     color: white;
     right: 23%;
@@ -315,10 +366,11 @@ width: 300px;
     background-color: #0585F2;
     cursor: pointer;
     border-radius: 50px;
-    border:  solid 1px white;
+    border: solid 1px white;
 
 }
-.footer{
+
+.footer {
     width: 100%;
     max-width: 1280;
     margin-top: 150px;
@@ -331,7 +383,8 @@ width: 300px;
     padding-right: 10px;
     padding-left: 10px;
 }
-.pptc{
+
+.pptc {
     width: 100%;
     max-width: 1280px;
     height: 26px;
@@ -343,7 +396,8 @@ width: 300px;
     margin-top: 50px;
 
 }
-.allrr{
+
+.allrr {
     width: 100%;
     max-width: 1280px;
     height: 26px;
@@ -355,4 +409,203 @@ width: 300px;
     margin-top: 10px;
     margin-bottom: 15px;
 }
+.flsvg{
+    padding: 0;
+}
+.frsvg{
+    padding: 0;
+}
 
+@media (max-width:720px) {
+
+    .mhd {
+        width: 320px;
+    }
+
+    .aa {
+        width: 320px;
+    }
+    .logosvg {
+        width: 50px;
+    
+    }
+
+    .title {
+        padding-left: 5px;
+        font-size: 18px;
+    }
+
+    .tsb {
+        font-size: 8px;
+        width: 100px;
+        height: 30px;
+    }
+
+    .icon {
+        width: 320px;
+    }
+
+    .ctext {
+        width: 160px;
+    }
+
+    .cp {
+        font-size: 20px;
+        width: 160px;
+    }
+
+    .ctext2 {
+        font-size: 20px;
+    }
+
+    .cp2 {
+
+        font-size: 10px;
+        padding-left: 0px;
+        width: 160;
+    }
+
+    .left {
+        width: 160px;
+        margin-top: 0px;
+        padding-right: 0px;
+    }
+    .imgpng {
+        margin-top: 0;
+        width: 160px;
+    }
+    .workt {
+        width: 320px;
+        font-size: 20px;
+    }
+    .fsea {
+    width: 320px;
+    }
+    .email {
+        width: 320px;
+        height: 30px;
+    }
+
+    .button {
+        position: relative;
+        bottom: 5px;
+        right: 115px;
+        width: 125px;
+        height: 29px;
+        font-size: 10px;
+    }
+    .workpt {
+        font-size: 10px;
+        width: 190px;
+    }
+    .forimg {
+        width: 300px;
+    }
+    .gc {
+        width: 320px;
+        flex-direction: column;
+    }
+    .box1 {
+        width: 260px;
+    }
+    .box1m {
+        font-size: 28px;
+        padding-top: 10px;
+    }
+    .box1p {
+        padding-top: 10px;
+        font-size: 14px;
+        color: #a3a3a3;
+    }
+    .nn {
+        font-size: 20px; 
+    }
+    .nspan {
+        font-size: 20px;
+    }
+    .svg251 {
+        width: 300px;
+    }
+    .new {
+        font-size: 20px;
+    }
+    .new2 {
+        font-size: 20px; 
+    }
+    .new3p {
+        font-size: 20px;
+    }
+    .rww {
+        font-size: 20px;
+    }
+    .rww1 {
+        font-size: 20px;
+        
+    }
+    .gc2 {
+        width: 320px;
+        flex-direction: column;
+    }
+    .box2 {
+        width: 260px;
+    }
+    .box2m {
+        font-size: 28px;
+        padding-top: 10px;
+    }
+    .box2p {
+        padding-top: 10px;
+        font-size: 14px;
+        color: #a3a3a3;
+    }
+    .try {
+       width: 320px;
+    }
+    .tteaxt {
+        font-size: 20px;
+        padding-left: 0;
+    }
+    .tspan {
+        font-size: 20px;
+    }
+    .ttp {
+        font-size: 8px;
+    }
+    .tts {
+        width: 300px;
+        height: 30px;
+    }
+    .ttsb {
+        position: relative;
+        left: 147px;
+        bottom: 30px;
+        height: 28px;
+        width: 150px;
+        font-size: 8px;
+    }
+    .footer {
+        width: 320px;
+    }
+    .pptc {
+        
+        width: 300px;
+        font-size: 12px;
+    }
+    .allrr {
+        width: 300px;
+        font-size: 12px;
+    }
+    .flsvg {
+    width: 100px;
+    }
+    .frsvg {
+        width: 100px;
+        padding-right: 30px;
+        }
+}
+@media(min-width:720px)
+{
+    .container{
+        width: 100%;
+    }
+}
