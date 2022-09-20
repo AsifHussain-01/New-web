@@ -500,6 +500,7 @@ margin: 0;
     }
     .forimg {
         width: 300px;
+        height: 300px;
     }
     .gc {
         width: 320px;
@@ -593,7 +594,7 @@ margin: 0;
     }
     .allrr {
         width: 300px;
-        font-size: 12px;
+        font-size: 9px;
     }
     .flsvg {
     width: 100px;
